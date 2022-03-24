@@ -1,0 +1,1085 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Groceteria</title>
+    <link rel="shortcut icon" href=".../images/shopping-cart.png" type="image/x-icon">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/97f33a6782.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+</head>
+
+<body>
+    <div class="header">
+        <div class="upper-header">
+            <a href="#" class="logo">
+                <img src="../images/shopping-cart.png" alt="shopping-cart">
+                <h1 class="logo-text">Groceteria</h1>
+            </a href="#">
+            <a href="#" class="search-bar">
+                <input type="text">
+                <button class="search-btn">
+                    <img src="../images/loupe.png" alt="loupe">
+                </button>
+            </a href="#">
+            <div class="upper-header-menu">
+                <a href="#" class="region-section">
+                    <img src="../images/flag.png" alt="flag">
+                </a href="#">
+                <a href="#" class="signin-section">
+                    <h2 class="hello-signin">Hello, Sign in</h2>
+                    <h2 class="account-list">Account & Lists</h2>
+                </a href="#">
+                <a href="#" class="return-orders">
+                    <h2 class="return-text">Returns</h2>
+                    <h2 class="order-text">& Orders</h2>
+                </a href="#">
+                <a href="#" class="cart-section">
+                    <h2 class="number-of-cart">0</h2>
+                    <h2 class="cart-text">Cart</h2>
+                </a href="#">
+            </div>
+            <div class="burger-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </div>
+        <div class="lower-header">
+            <a href="./searchpage.html" class="cooking-essentials">
+                <h2>Cooking Essentials</h2>
+            </a>
+            <a href="#" class="snacks-beverages">
+                <h2>Snacks & Beverages</h2>
+            </a>
+            <a href="#" class="packaged-foods">
+                <h2>Packaged Foods</h2>
+            </a>
+            <a href="#" class="household-pets">
+                <h2>Households & Pets</h2>
+            </a>
+            <a href="#" class="personalcare-baby">
+                <h2>Personal Care & Baby</h2>
+            </a>
+            <a href="#" class="skin-care">
+                <h2>Skin Care</h2>
+            </a>
+            <a href="#" class="offers">
+                <h2>Offers</h2>
+            </a>
+            <a href="#" class="past-purchases">
+                <h2>Past Purchases</h2>
+            </a>
+
+        </div>
+    </div>
+
+    <main>
+        <div class="signin">
+            <a href="#">Sign in to avail the offer</a>
+        </div>
+
+        <div class="offer-div">
+            <div class="offer-item offer-active">
+                <img src="../images/nathalia-rosa-rWMIbqmOxrY-unsplash.jpg" alt="Everyday Essentials">
+                <div class="offer-info">
+                    <h1>Get upto <span class="offer-num">50% OFF</span> on <span class="offer-on">Everyday
+                            Essentials.</span> Grap now</h1>
+                    <button class="shop-now">Shop Now</button>
+                </div>
+            </div>
+            <div class="offer-item">
+                <img src="../images/daria-volkova-BMnX7L9G5xc-unsplash.jpg" alt="Everyday Essentials">
+                <div class="offer-info">
+                    <h1>All you need for your <span class="offer-on">Kitchen</span> are at <span class="offer-num">40%
+                            OFF.</span> Go ahead</h1>
+                    <button class="shop-now">Shop Now</button>
+                </div>
+            </div>
+            <div class="offer-item">
+                <img src="../images/gil-ribeiro-3hO8igCybds-unsplash.jpg" alt="kitchen Essentials">
+                <div class="offer-info">
+                    <h1><span class="offer-on">Cleaning Essentials</span> are on sale. Get upto <span
+                            class="offer-num">20% OFF</span></h1>
+                    <button class="shop-now">Shop Now</button>
+                </div>
+            </div>
+            <div class="navigation">
+                <i class="fas fa-chevron-left prev-btn"></i>
+                <i class="fas fa-chevron-right next-btn"></i>
+            </div>
+            <div class="navigation-visibilty">
+                <div class="slide-icon offer-active"></div>
+                <div class="slide-icon"></div>
+                <div class="slide-icon"></div>
+            </div>
+            <div class="offer-overlay"></div>
+        </div>
+
+        <div class="how-it-works">
+            <div class="how-it-works-text">
+                <h1>How it works?</h1>
+            </div>
+            <div class="how-it-works-content">
+                <div class="location-div">
+                    <div class="location-div-content">
+                        <div class="location-img">
+                            <img src="../images/map-marker.png" alt="location img">
+                        </div>
+                        <div class="location-text">
+                            <h2>Create an account and fill in the address</h2>
+                        </div>
+                    </div>
+                    <i class="fas fa-chevron-right next-on"></i>
+                </div>
+                <div class="select-div">
+                    <div class="select-div-content">
+                        <div class="select-product-img">
+                            <img src="../images/shopping-cart-how.png" alt="shopping cart">
+                           
+                        </div>
+                        <div class="select-product-text">
+                            <h2>
+                                Select the product you want to buy
+                            </h2>
+                        </div>
+                    </div>
+                    <i class="fas fa-chevron-right next-on"></i>
+                </div>
+                <div class="delivery-div">
+                    <div class="delivery-img">
+                        <img src="../images/delivery-truck.png" alt="delivery truck">
+                       
+                    </div>
+                    <div class="delivery-text">
+                        <h2>
+                            We will deliver your shopping to your door
+                        </h2>
+                    </div>
+                </div>
+            </div> 
+        </div>
+
+        <div class="offer1 best-prices-on-top-brands">
+            <div class="best-prices-text">
+                <h2>Best Prices On Top Brands | Upto 50% OFF</h2>
+            </div>
+            <i class="fas fa-chevron-left prev1"></i>
+            <i class="fas fa-chevron-right next1"></i>
+            <div class="deal-1 best-prices-box">
+                <div class="best-price-item">
+                    <div class="item-img">
+                        <img src="https://m.media-amazon.com/images/I/61gRcZHQp8L._AC_UL480_QL65_.jpg" alt="">
+                    </div>
+                    <div class="brand-detail">
+                        <div class="brand-title">
+                            <h4>Catch Turmaric Powder</h4>
+                        </div> 
+                        <div class="pricing-box">
+                            <div class="product-val">
+                                <h4>₹ 44.00</h4>
+                                <h5>M.R.P <del>₹55.00</del></h5>
+                            </div>
+                            <div class="customer-rating">
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <h5>439 customer ratings</h5>
+                            </div>
+                            <div class="save-val">
+                                <h5>You Save: <span class="save-val-mrp">₹11.00 20% off</span> </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shop-btns">
+                        <button class="buy-now">Buy Now</button>
+                        <button class="add-cart">Add to cart</button>
+                    </div>
+                </div>
+                <div class="best-price-item">
+                    <div class="item-img">
+                        <img src="https://m.media-amazon.com/images/I/71nx6ZI0PmL._AC_UL480_QL65_.jpg" alt="">
+                    </div>
+                    <div class="brand-detail">
+                        <div class="brand-title">
+                            <h4>Catch Turmaric Powder</h4>
+                        </div> 
+                        <div class="pricing-box">
+                            <div class="product-val">
+                                <h4>₹ 44.00</h4>
+                                <h5>M.R.P <del>₹55.00</del></h5>
+                            </div>
+                            <div class="customer-rating">
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <h5>439 customer ratings</h5>
+                            </div>
+                            <div class="save-val">
+                                <h5>You Save: <span class="save-val-mrp">₹11.00 20% off</span> </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shop-btns">
+                        <button class="buy-now">Buy Now</button>
+                        <button class="add-cart">Add to cart</button>
+                    </div>
+                </div>
+                <div class="best-price-item">
+                    <div class="item-img">
+                        <img src="https://m.media-amazon.com/images/I/61sHJM9jnDL._AC_UL480_QL65_.jpg" alt="">
+                    </div>
+                    <div class="brand-detail">
+                        <div class="brand-title">
+                            <h4>Catch Turmaric Powder</h4>
+                        </div> 
+                        <div class="pricing-box">
+                            <div class="product-val">
+                                <h4>₹ 44.00</h4>
+                                <h5>M.R.P <del>₹55.00</del></h5>
+                            </div>
+                            <div class="customer-rating">
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <h5>439 customer ratings</h5>
+                            </div>
+                            <div class="save-val">
+                                <h5>You Save: <span class="save-val-mrp">₹11.00 20% off</span> </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shop-btns">
+                        <button class="buy-now">Buy Now</button>
+                        <button class="add-cart">Add to cart</button>
+                    </div>
+                </div>
+                <div class="best-price-item">
+                    <div class="item-img">
+                        <img src="https://m.media-amazon.com/images/I/614fU-tdXRL._AC_UL480_QL65_.jpg" alt="">
+                    </div>
+                    <div class="brand-detail">
+                        <div class="brand-title">
+                            <h4>Catch Turmaric Powder</h4>
+                        </div> 
+                        <div class="pricing-box">
+                            <div class="product-val">
+                                <h4>₹ 44.00</h4>
+                                <h5>M.R.P <del>₹55.00</del></h5>
+                            </div>
+                            <div class="customer-rating">
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <h5>439 customer ratings</h5>
+                            </div>
+                            <div class="save-val">
+                                <h5>You Save: <span class="save-val-mrp">₹11.00 20% off</span> </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shop-btns">
+                        <button class="buy-now">Buy Now</button>
+                        <button class="add-cart">Add to cart</button>
+                    </div>
+                </div>
+                <div class="best-price-item">
+                    <div class="item-img">
+                        <img src="https://m.media-amazon.com/images/I/71Mbc6N1XXL._AC_UL480_QL65_.jpg" alt="">
+                    </div>
+                    <div class="brand-detail">
+                        <div class="brand-title">
+                            <h4>Catch Turmaric Powder</h4>
+                        </div> 
+                        <div class="pricing-box">
+                            <div class="product-val">
+                                <h4>₹ 44.00</h4>
+                                <h5>M.R.P <del>₹55.00</del></h5>
+                            </div>
+                            <div class="customer-rating">
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <h5>439 customer ratings</h5>
+                            </div>
+                            <div class="save-val">
+                                <h5>You Save: <span class="save-val-mrp">₹11.00 20% off</span> </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shop-btns">
+                        <button class="buy-now">Buy Now</button>
+                        <button class="add-cart">Add to cart</button>
+                    </div>
+                </div>
+                <div class="best-price-item">
+                    <div class="item-img">
+                        <img src="https://m.media-amazon.com/images/I/514lCFqOWNL._AC_UL480_QL65_.jpg" alt="">
+                    </div>
+                    <div class="brand-detail">
+                        <div class="brand-title">
+                            <h4>Catch Turmaric Powder</h4>
+                        </div> 
+                        <div class="pricing-box">
+                            <div class="product-val">
+                                <h4>₹ 44.00</h4>
+                                <h5>M.R.P <del>₹55.00</del></h5>
+                            </div>
+                            <div class="customer-rating">
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <h5>439 customer ratings</h5>
+                            </div>
+                            <div class="save-val">
+                                <h5>You Save: <span class="save-val-mrp">₹11.00 20% off</span> </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shop-btns">
+                        <button class="buy-now">Buy Now</button>
+                        <button class="add-cart">Add to cart</button>
+                    </div>
+                </div>
+                <div class="best-price-item">
+                    <div class="item-img">
+                        <img src="https://m.media-amazon.com/images/I/71pOgT6ektL._AC_UL480_QL65_.jpg" alt="">
+                    </div>
+                    <div class="brand-detail">
+                        <div class="brand-title">
+                            <h4>Catch Turmaric Powder</h4>
+                        </div> 
+                        <div class="pricing-box">
+                            <div class="product-val">
+                                <h4>₹ 44.00</h4>
+                                <h5>M.R.P <del>₹55.00</del></h5>
+                            </div>
+                            <div class="customer-rating">
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <h5>439 customer ratings</h5>
+                            </div>
+                            <div class="save-val">
+                                <h5>You Save: <span class="save-val-mrp">₹11.00 20% off</span> </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shop-btns">
+                        <button class="buy-now">Buy Now</button>
+                        <button class="add-cart">Add to cart</button>
+                    </div>
+                </div>
+                <div class="best-price-item">
+                    <div class="item-img">
+                        <img src="https://m.media-amazon.com/images/I/71r2D6cqcCS._SS140_.jpg" alt="">
+                    </div>
+                    <div class="brand-detail">
+                        <div class="brand-title">
+                            <h4>Catch Turmaric Powder</h4>
+                        </div> 
+                        <div class="pricing-box">
+                            <div class="product-val">
+                                <h4>₹ 44.00</h4>
+                                <h5>M.R.P <del>₹55.00</del></h5>
+                            </div>
+                            <div class="customer-rating">
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <h5>439 customer ratings</h5>
+                            </div>
+                            <div class="save-val">
+                                <h5>You Save: <span class="save-val-mrp">₹11.00 20% off</span> </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shop-btns">
+                        <button class="buy-now">Buy Now</button>
+                        <button class="add-cart">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="offer-2 best-prices-on-top-brands">
+            <div class="best-prices-text">
+                <h2>Deals under ₹99/- | Grab now</h2>
+            </div>
+            <i class="fas fa-chevron-left prev2"></i>
+            <i class="fas fa-chevron-right next2"></i>
+            <div class="deal-2 best-prices-box">
+                <div class="best-price-item">
+                    <div class="item-img">
+                        <img src="https://m.media-amazon.com/images/I/61gRcZHQp8L._AC_UL480_QL65_.jpg" alt="">
+                    </div>
+                    <div class="brand-detail">
+                        <div class="brand-title">
+                            <h4>Catch Turmaric Powder</h4>
+                        </div> 
+                        <div class="pricing-box">
+                            <div class="product-val">
+                                <h4>₹ 44.00</h4>
+                                <h5>M.R.P <del>₹55.00</del></h5>
+                            </div>
+                            <div class="customer-rating">
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <h5>439 customer ratings</h5>
+                            </div>
+                            <div class="save-val">
+                                <h5>You Save: <span class="save-val-mrp">₹11.00 20% off</span> </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shop-btns">
+                        <button class="buy-now">Buy Now</button>
+                        <button class="add-cart">Add to cart</button>
+                    </div>
+                </div>
+                <div class="best-price-item">
+                    <div class="item-img">
+                        <img src="https://m.media-amazon.com/images/I/71nx6ZI0PmL._AC_UL480_QL65_.jpg" alt="">
+                    </div>
+                    <div class="brand-detail">
+                        <div class="brand-title">
+                            <h4>Catch Turmaric Powder</h4>
+                        </div> 
+                        <div class="pricing-box">
+                            <div class="product-val">
+                                <h4>₹ 44.00</h4>
+                                <h5>M.R.P <del>₹55.00</del></h5>
+                            </div>
+                            <div class="customer-rating">
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <h5>439 customer ratings</h5>
+                            </div>
+                            <div class="save-val">
+                                <h5>You Save: <span class="save-val-mrp">₹11.00 20% off</span> </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shop-btns">
+                        <button class="buy-now">Buy Now</button>
+                        <button class="add-cart">Add to cart</button>
+                    </div>
+                </div>
+                <div class="best-price-item">
+                    <div class="item-img">
+                        <img src="https://m.media-amazon.com/images/I/61sHJM9jnDL._AC_UL480_QL65_.jpg" alt="">
+                    </div>
+                    <div class="brand-detail">
+                        <div class="brand-title">
+                            <h4>Catch Turmaric Powder</h4>
+                        </div> 
+                        <div class="pricing-box">
+                            <div class="product-val">
+                                <h4>₹ 44.00</h4>
+                                <h5>M.R.P <del>₹55.00</del></h5>
+                            </div>
+                            <div class="customer-rating">
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <h5>439 customer ratings</h5>
+                            </div>
+                            <div class="save-val">
+                                <h5>You Save: <span class="save-val-mrp">₹11.00 20% off</span> </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shop-btns">
+                        <button class="buy-now">Buy Now</button>
+                        <button class="add-cart">Add to cart</button>
+                    </div>
+                </div>
+                <div class="best-price-item">
+                    <div class="item-img">
+                        <img src="https://m.media-amazon.com/images/I/614fU-tdXRL._AC_UL480_QL65_.jpg" alt="">
+                    </div>
+                    <div class="brand-detail">
+                        <div class="brand-title">
+                            <h4>Catch Turmaric Powder</h4>
+                        </div> 
+                        <div class="pricing-box">
+                            <div class="product-val">
+                                <h4>₹ 44.00</h4>
+                                <h5>M.R.P <del>₹55.00</del></h5>
+                            </div>
+                            <div class="customer-rating">
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <h5>439 customer ratings</h5>
+                            </div>
+                            <div class="save-val">
+                                <h5>You Save: <span class="save-val-mrp">₹11.00 20% off</span> </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shop-btns">
+                        <button class="buy-now">Buy Now</button>
+                        <button class="add-cart">Add to cart</button>
+                    </div>
+                </div>
+                <div class="best-price-item">
+                    <div class="item-img">
+                        <img src="https://m.media-amazon.com/images/I/71Mbc6N1XXL._AC_UL480_QL65_.jpg" alt="">
+                    </div>
+                    <div class="brand-detail">
+                        <div class="brand-title">
+                            <h4>Catch Turmaric Powder</h4>
+                        </div> 
+                        <div class="pricing-box">
+                            <div class="product-val">
+                                <h4>₹ 44.00</h4>
+                                <h5>M.R.P <del>₹55.00</del></h5>
+                            </div>
+                            <div class="customer-rating">
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <h5>439 customer ratings</h5>
+                            </div>
+                            <div class="save-val">
+                                <h5>You Save: <span class="save-val-mrp">₹11.00 20% off</span> </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shop-btns">
+                        <button class="buy-now">Buy Now</button>
+                        <button class="add-cart">Add to cart</button>
+                    </div>
+                </div>
+                 <div class="best-price-item">
+                    <div class="item-img">
+                        <img src="https://m.media-amazon.com/images/I/514lCFqOWNL._AC_UL480_QL65_.jpg" alt="">
+                    </div>
+                    <div class="brand-detail">
+                        <div class="brand-title">
+                            <h4>Catch Turmaric Powder</h4>
+                        </div> 
+                        <div class="pricing-box">
+                            <div class="product-val">
+                                <h4>₹ 44.00</h4>
+                                <h5>M.R.P <del>₹55.00</del></h5>
+                            </div>
+                            <div class="customer-rating">
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <h5>439 customer ratings</h5>
+                            </div>
+                            <div class="save-val">
+                                <h5>You Save: <span class="save-val-mrp">₹11.00 20% off</span> </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shop-btns">
+                        <button class="buy-now">Buy Now</button>
+                        <button class="add-cart">Add to cart</button>
+                    </div>
+                </div>
+                <div class="best-price-item">
+                    <div class="item-img">
+                        <img src="https://m.media-amazon.com/images/I/71pOgT6ektL._AC_UL480_QL65_.jpg" alt="">
+                    </div>
+                    <div class="brand-detail">
+                        <div class="brand-title">
+                            <h4>Catch Turmaric Powder</h4>
+                        </div> 
+                        <div class="pricing-box">
+                            <div class="product-val">
+                                <h4>₹ 44.00</h4>
+                                <h5>M.R.P <del>₹55.00</del></h5>
+                            </div>
+                            <div class="customer-rating">
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <h5>439 customer ratings</h5>
+                            </div>
+                            <div class="save-val">
+                                <h5>You Save: <span class="save-val-mrp">₹11.00 20% off</span> </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shop-btns">
+                        <button class="buy-now">Buy Now</button>
+                        <button class="add-cart">Add to cart</button>
+                    </div>
+                </div>
+                <div class="best-price-item">
+                    <div class="item-img">
+                        <img src="https://m.media-amazon.com/images/I/71r2D6cqcCS._SS140_.jpg" alt="">
+                    </div>
+                    <div class="brand-detail">
+                        <div class="brand-title">
+                            <h4>Catch Turmaric Powder</h4>
+                        </div> 
+                        <div class="pricing-box">
+                            <div class="product-val">
+                                <h4>₹ 44.00</h4>
+                                <h5>M.R.P <del>₹55.00</del></h5>
+                            </div>
+                            <div class="customer-rating">
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <h5>439 customer ratings</h5>
+                            </div>
+                            <div class="save-val">
+                                <h5>You Save: <span class="save-val-mrp">₹11.00 20% off</span> </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shop-btns">
+                        <button class="buy-now">Buy Now</button>
+                        <button class="add-cart">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="offer-on-specific-item">
+            <a href="#" class="tataPremium">
+                <img src="../images/TataPremium.jpg" alt="Tata Premium"/>
+            </a>
+            <a href="#" class="colgate-offer">
+                <img src="../images/Colgate_Pantry_Storefront-750x375.png" alt="Colate offer"/>
+            </a>
+            <a href="#" class="niveaoffer">
+                <img src="../images/nivea.jpg" alt="Nivea offer"/>
+            </a>
+            <a href="#" class="tatasampann">
+                <img src="../images/TataSampann.jpg" alt="Tata"/>
+            </a>
+        </div>
+
+        <div class="offer-3 best-prices-on-top-brands">
+            <div class="best-prices-text">
+                <h2>Don't Forget To Add | Upto 50% off</h2>
+            </div>
+            <i class="fas fa-chevron-left prev3"></i>
+            <i class="fas fa-chevron-right next3"></i>
+            <div class="deal-3 best-prices-box">
+                <div class="best-price-item">
+                    <div class="item-img">
+                        <img src="https://m.media-amazon.com/images/I/61gRcZHQp8L._AC_UL480_QL65_.jpg" alt="">
+                    </div>
+                    <div class="brand-detail">
+                        <div class="brand-title">
+                            <h4>Catch Turmaric Powder</h4>
+                        </div> 
+                        <div class="pricing-box">
+                            <div class="product-val">
+                                <h4>₹ 44.00</h4>
+                                <h5>M.R.P <del>₹55.00</del></h5>
+                            </div>
+                            <div class="customer-rating">
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <h5>439 customer ratings</h5>
+                            </div>
+                            <div class="save-val">
+                                <h5>You Save: <span class="save-val-mrp">₹11.00 20% off</span> </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shop-btns">
+                        <button class="buy-now">Buy Now</button>
+                        <button class="add-cart">Add to cart</button>
+                    </div>
+                </div>
+                <div class="best-price-item">
+                    <div class="item-img">
+                        <img src="https://m.media-amazon.com/images/I/71nx6ZI0PmL._AC_UL480_QL65_.jpg" alt="">
+                    </div>
+                    <div class="brand-detail">
+                        <div class="brand-title">
+                            <h4>Catch Turmaric Powder</h4>
+                        </div> 
+                        <div class="pricing-box">
+                            <div class="product-val">
+                                <h4>₹ 44.00</h4>
+                                <h5>M.R.P <del>₹55.00</del></h5>
+                            </div>
+                            <div class="customer-rating">
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <h5>439 customer ratings</h5>
+                            </div>
+                            <div class="save-val">
+                                <h5>You Save: <span class="save-val-mrp">₹11.00 20% off</span> </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shop-btns">
+                        <button class="buy-now">Buy Now</button>
+                        <button class="add-cart">Add to cart</button>
+                    </div>
+                </div>
+                <div class="best-price-item">
+                    <div class="item-img">
+                        <img src="https://m.media-amazon.com/images/I/61sHJM9jnDL._AC_UL480_QL65_.jpg" alt="">
+                    </div>
+                    <div class="brand-detail">
+                        <div class="brand-title">
+                            <h4>Catch Turmaric Powder</h4>
+                        </div> 
+                        <div class="pricing-box">
+                            <div class="product-val">
+                                <h4>₹ 44.00</h4>
+                                <h5>M.R.P <del>₹55.00</del></h5>
+                            </div>
+                            <div class="customer-rating">
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <h5>439 customer ratings</h5>
+                            </div>
+                            <div class="save-val">
+                                <h5>You Save: <span class="save-val-mrp">₹11.00 20% off</span> </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shop-btns">
+                        <button class="buy-now">Buy Now</button>
+                        <button class="add-cart">Add to cart</button>
+                    </div>
+                </div>
+                <div class="best-price-item">
+                    <div class="item-img">
+                        <img src="https://m.media-amazon.com/images/I/614fU-tdXRL._AC_UL480_QL65_.jpg" alt="">
+                    </div>
+                    <div class="brand-detail">
+                        <div class="brand-title">
+                            <h4>Catch Turmaric Powder</h4>
+                        </div> 
+                        <div class="pricing-box">
+                            <div class="product-val">
+                                <h4>₹ 44.00</h4>
+                                <h5>M.R.P <del>₹55.00</del></h5>
+                            </div>
+                            <div class="customer-rating">
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <h5>439 customer ratings</h5>
+                            </div>
+                            <div class="save-val">
+                                <h5>You Save: <span class="save-val-mrp">₹11.00 20% off</span> </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shop-btns">
+                        <button class="buy-now">Buy Now</button>
+                        <button class="add-cart">Add to cart</button>
+                    </div>
+                </div>
+                <div class="best-price-item">
+                    <div class="item-img">
+                        <img src="https://m.media-amazon.com/images/I/71Mbc6N1XXL._AC_UL480_QL65_.jpg" alt="">
+                    </div>
+                    <div class="brand-detail">
+                        <div class="brand-title">
+                            <h4>Catch Turmaric Powder</h4>
+                        </div> 
+                        <div class="pricing-box">
+                            <div class="product-val">
+                                <h4>₹ 44.00</h4>
+                                <h5>M.R.P <del>₹55.00</del></h5>
+                            </div>
+                            <div class="customer-rating">
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <h5>439 customer ratings</h5>
+                            </div>
+                            <div class="save-val">
+                                <h5>You Save: <span class="save-val-mrp">₹11.00 20% off</span> </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shop-btns">
+                        <button class="buy-now">Buy Now</button>
+                        <button class="add-cart">Add to cart</button>
+                    </div>
+                </div>
+                 <div class="best-price-item">
+                    <div class="item-img">
+                        <img src="https://m.media-amazon.com/images/I/514lCFqOWNL._AC_UL480_QL65_.jpg" alt="">
+                    </div>
+                    <div class="brand-detail">
+                        <div class="brand-title">
+                            <h4>Catch Turmaric Powder</h4>
+                        </div> 
+                        <div class="pricing-box">
+                            <div class="product-val">
+                                <h4>₹ 44.00</h4>
+                                <h5>M.R.P <del>₹55.00</del></h5>
+                            </div>
+                            <div class="customer-rating">
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <h5>439 customer ratings</h5>
+                            </div>
+                            <div class="save-val">
+                                <h5>You Save: <span class="save-val-mrp">₹11.00 20% off</span> </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shop-btns">
+                        <button class="buy-now">Buy Now</button>
+                        <button class="add-cart">Add to cart</button>
+                    </div>
+                </div>
+                <div class="best-price-item">
+                    <div class="item-img">
+                        <img src="https://m.media-amazon.com/images/I/71pOgT6ektL._AC_UL480_QL65_.jpg" alt="">
+                    </div>
+                    <div class="brand-detail">
+                        <div class="brand-title">
+                            <h4>Catch Turmaric Powder</h4>
+                        </div> 
+                        <div class="pricing-box">
+                            <div class="product-val">
+                                <h4>₹ 44.00</h4>
+                                <h5>M.R.P <del>₹55.00</del></h5>
+                            </div>
+                            <div class="customer-rating">
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <h5>439 customer ratings</h5>
+                            </div>
+                            <div class="save-val">
+                                <h5>You Save: <span class="save-val-mrp">₹11.00 20% off</span> </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shop-btns">
+                        <button class="buy-now">Buy Now</button>
+                        <button class="add-cart">Add to cart</button>
+                    </div>
+                </div>
+                <div class="best-price-item">
+                    <div class="item-img">
+                        <img src="https://m.media-amazon.com/images/I/71r2D6cqcCS._SS140_.jpg" alt="">
+                    </div>
+                    <div class="brand-detail">
+                        <div class="brand-title">
+                            <h4>Catch Turmaric Powder</h4>
+                        </div> 
+                        <div class="pricing-box">
+                            <div class="product-val">
+                                <h4>₹ 44.00</h4>
+                                <h5>M.R.P <del>₹55.00</del></h5>
+                            </div>
+                            <div class="customer-rating">
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <h5>439 customer ratings</h5>
+                            </div>
+                            <div class="save-val">
+                                <h5>You Save: <span class="save-val-mrp">₹11.00 20% off</span> </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shop-btns">
+                        <button class="buy-now">Buy Now</button>
+                        <button class="add-cart">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="offer-on-groceries">
+            <div class="offer-on-groceries-text">
+                <h2>Offer on Groceries</h2>
+            </div>
+            <div class="offer-on-groceries-info">
+                <a href="#" class="biscuits-snacks">
+                    <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img2021/Pantry/04_Biscuits__Snacks_400x400.jpg" alt="biscuits-snacks"/>
+                </a>
+                <a href="#" class="pulses">
+                    <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img2021/Pantry/05_Pulses_400x400.jpg" alt="pulses"/>
+                </a>
+                <a href="#" class="spices & masala">
+                    <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img2021/Pantry/06_Spices__Masala_400x400.jpg" alt="spices & masala"/>
+                </a>
+                <a href="#" class="tea & coffee">
+                    <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img2021/Pantry/07Tea__Coffee_400x400.jpg" alt="tea & coffee"/>
+                </a>
+                <a href="#" class="breakfast-essentials">
+                    <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img2021/Pantry/08_Breakfast_Essentials_400x400.jpg" alt="breakfast-essentials"/>
+                </a>
+                <a href="#" class="dryfruits-nuts">
+                    <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img2021/Pantry/09_Dry_fruits__Nuts_400x400.jpg" alt="dryfruits-nuts"/>
+                </a>
+                <a href="#" class="atta-flour">
+                    <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img2021/Pantry/10_Atta__Flour_400x400.jpg" alt="atta-flour"/>
+                </a>
+                <a href="#" class="noodles-more">
+                    <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img2021/Pantry/11_Noodles__More_400x400.jpg" alt="noodles-more"/>
+                </a>
+            </div>
+            
+        </div>
+
+        <div class="offer-on-hygine-skin">
+            <div class="offer-on-hygine-skin-text">
+                <h2>Offer on home & hygiene essentials</h2>
+            </div>
+            <div class="offer-on-hygine-skin-info">
+                <a href="#" class="laundry-essentials">
+                    <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img2021/Pantry/storefront/Laundry_Essentials_400x400.jpg" alt="laundry-essentials"/>
+                </a>
+                <a href="#" class="dishwash-cleaners">
+                    <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img2021/Pantry/storefront/Dishwash__cleaners_400x400.jpg" alt="dishwash-cleaners"/>
+                </a>
+                <a href="#" class="cleaning-supplies">
+                    <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img2021/Pantry/storefront/Cleaning_Supplies_400x400.jpg" alt="cleaning-supplies"/>
+                </a>
+                <a href="#" class="handwash-sanitizer">
+                    <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img2021/Pantry/storefront/Hand_Wash__Sanitizers_400x400__copy.jpg" alt="handwash-sanitizer"/>
+                </a>
+            </div>
+            
+        </div>
+
+        <div class="offer-on-hygine-skin">
+            <div class="offer-on-hygine-skin-text">
+                <h2>Offers on Beauty</h2>
+            </div>
+            <div class="offer-on-hygine-skin-info">
+                <a href="#" class="body-lotion">
+                    <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/Pantry/SF/Tile/01_Body_lotion_400x400.jpg" alt="body-lotion"/>
+                </a>
+                <a href="#" class="face-creams">
+                    <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/Pantry/SF/Tile/02_Face_creams_400x400.jpg" alt="face-creams"/>
+                </a>
+                <a href="#" class="soap">
+                    <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/Pantry/SF/Tile/03_Soap_400x400.jpg" alt="soap"/>
+                </a>
+                <a href="#" class="shampoo">
+                    <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/Pantry/SF/Tile/04_Shampoo_400x400.jpg" alt="shampoo"/>
+                </a>
+            </div>
+            
+        </div>
+    </main>
+
+
+    <div class="footer">
+        <div class="back-to-top">
+            <a href="#">Back to top</a>
+        </div>
+        <div class="footer-content">
+            <div class="get-to-know-us">
+                <h3>Get to Know Us</h3>
+                <a href="#">About Us</a>
+                <a href="#">Careers</a>
+                <a href="#">Press Release</a>
+                <a href="#">Groceteria Cares</a>
+                <a href="#">Gift a Smile</a>
+            </div>
+            <div class="connect-with-us">
+                <h3>Connect With Us</h3>
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">Instagram</a>
+
+            </div>
+            <div class="make-money-with-us">
+                <h3>Make Money With Us</h3>
+                <a href="#">Sell on Groceteria</a>
+                <a href="#">Sell Under Groceteria Accelerator</a>
+                <a href="#">Groceteria Global Sedlling</a>
+                <a href="#">Become a Affiliate</a>
+                <a href="#">Fullfillment by Groceteria</a>
+                <a href="#">Advertise Your Product</a>
+
+            </div>
+            <div class="let-us-help-you">
+                <h3>Let Us Help You</h3>
+                <a href="#">Covid-19 and Groceteria</a>
+                <a href="#">Your Account</a>
+                <a href="#">Return & Centre</a>
+                <a href="#">100% Purchase Protection</a>
+                <a href="#">Help</a>
+
+            </div>
+        </div>
+    </div>
+
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script src="../JS/script.js"></script>
+</body>
+
+</html>
